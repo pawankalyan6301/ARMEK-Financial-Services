@@ -10,6 +10,8 @@ from typing import Dict, Any, Optional
 from orchestrator import MasterAgent
 from models import SessionState, CustomerProfile
 
+import os
+
 # ---------- Setup ----------
 logging.basicConfig(level=logging.INFO)
 app = FastAPI(title="ARMEK Agentic Loan Platform")
@@ -21,6 +23,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+os.makedirs("generated_letters", exist_ok=True)
 app.mount("/generated_letters", StaticFiles(directory="generated_letters"), name="generated_letters")
 
 # ---------- Singleton Agents ----------

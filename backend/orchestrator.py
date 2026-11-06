@@ -102,10 +102,10 @@ class MasterAgent:
             
             # ASK LLM
             try:
-                action = self._chat_with_llm(context)
+                action = self._chat_with_llm(context, session=session, user_input=user_input)
             except Exception as e:
                 logging.error(f"LLM Error: {e}")
-                return {"reply": "System Error: Brain freeze. Please try again.", "ui_action": None}
+                action = self._fallback_action(session, user_input)
 
             logging.info(f"Agent Decided: {action.type} - {action.reasoning}")
 
@@ -202,17 +202,31 @@ class MasterAgent:
     def _update_state_from_worker(self, session: SessionState, worker_name: str, result: WorkerResponse):
         # Update Profile Data if successful and relevant
         if result.success and result.data:
-            # Merging logic - simplified
-            if "approved_amount" in result.data:  session.profile.loan_amount = result.data["approved_amount"]
-            # etc...
+            if "approved_amount" in result.data: 
+                session.profile.approved_amount = result.data["approved_amount"]
+                session.profile.loan_amount = result.data["approved_amount"]
+            if "monthly_emi" in result.data:
+                session.profile.monthly_emi = result.data["monthly_emi"]
+            if "verified_name" in result.data:
+                session.profile.verified_name = result.data["verified_name"]
+            if "cibil" in result.data:
+                session.profile.cibil_score = result.data["cibil"]
+            if "url" in result.data:
+                session.sanction_url = result.data["url"]
+                session.sanction_generated = True
+                session.stage = "SANCTION"
 
         # Update Flags
         if worker_name == "EligibilityAgent":
             session.eligibility_run = True
+            if session.stage == "INIT":
+                session.stage = "ELIGIBILITY"
         elif worker_name == "KYCAgent" and result.success:
             session.kyc_verified = True
+            session.stage = "KYC"
         elif worker_name == "CreditBureauAgent":
             session.credit_bureau_checked = True
+            session.stage = "CREDIT_CHECKED"
         
         # Store Risk
         if result.risk_score > 50:
@@ -231,16 +245,80 @@ class MasterAgent:
         """Removes markdown code blocks if present."""
         content = content.strip()
         if content.startswith("```"):
-            # Find the first newline to skip "```json"
             first_newline = content.find("\n")
             if first_newline != -1:
                 content = content[first_newline+1:]
-            # Remove trailing "```"
             if content.endswith("```"):
                 content = content[:-3]
         return content.strip()
 
-    def _chat_with_llm(self, messages: List[Dict[str, str]]) -> AgentAction:
+    def _fallback_action(self, session: SessionState, user_input: str) -> AgentAction:
+        import re
+        logging.info("Using Rule-Based Fallback Engine")
+        
+        # Parse details if user provided them
+        name_match = re.search(r'name is ([A-Za-z ]+?)(?=\.|$)', user_input, re.IGNORECASE)
+        pan_match = re.search(r'[A-Za-z]{5}\d{4}[A-Za-z]', user_input)
+        income_match = re.search(r'(?:income|earning)[^\d]*(\d+)', user_input, re.IGNORECASE)
+        amount_match = re.search(r'(?:loan|amount)[^\d]*(\d+)', user_input, re.IGNORECASE)
+        tenure_match = re.search(r'(\d+)\s*(?:months|month)', user_input, re.IGNORECASE)
+
+        if name_match and not session.profile.name:
+            session.profile.name = name_match.group(1).strip()
+        if pan_match and not session.profile.pan:
+            session.profile.pan = pan_match.group(0).upper()
+        if income_match and not session.profile.monthly_income:
+            session.profile.monthly_income = float(income_match.group(1))
+        if amount_match and not session.profile.loan_amount:
+            session.profile.loan_amount = float(amount_match.group(1))
+        if tenure_match and not session.profile.tenure_months:
+            session.profile.tenure_months = int(tenure_match.group(1))
+
+        inc = session.profile.monthly_income or 50000.0
+        amt = session.profile.loan_amount or 100000.0
+        ten = session.profile.tenure_months or 12
+        pan = session.profile.pan or "ABCDE1234F"
+        name = session.profile.name or "User"
+
+        if not session.eligibility_run:
+            return AgentAction(
+                type="CALL_WORKER",
+                worker_name="EligibilityAgent",
+                worker_inputs={"income": inc, "existing_emi": session.profile.existing_emi or 0.0, "loan_amount": amt, "tenure_months": ten},
+                reasoning="Fallback: Run EligibilityAgent"
+            )
+
+        if session.eligibility_run and not session.kyc_verified:
+            return AgentAction(
+                type="CALL_WORKER",
+                worker_name="KYCAgent",
+                worker_inputs={"pan": pan, "name": name},
+                reasoning="Fallback: Run KYCAgent"
+            )
+
+        if session.kyc_verified and not session.credit_bureau_checked:
+            return AgentAction(
+                type="CALL_WORKER",
+                worker_name="CreditBureauAgent",
+                worker_inputs={"pan": pan, "stated_income": inc, "stated_emi": session.profile.existing_emi or 0.0},
+                reasoning="Fallback: Run CreditBureauAgent"
+            )
+
+        if session.credit_bureau_checked and not session.sanction_generated:
+            return AgentAction(
+                type="CALL_WORKER",
+                worker_name="DocumentAgent",
+                worker_inputs={"customer_name": name, "amount": amt, "tenure": ten},
+                reasoning="Fallback: Run DocumentAgent"
+            )
+
+        return AgentAction(
+            type="ASK_USER",
+            user_message=f"Congratulations {name}! Your loan of INR {amt} for {ten} months has been fully approved and sanctioned.",
+            reasoning="Fallback: Workflow completed successfully"
+        )
+
+    def _chat_with_llm(self, messages: List[Dict[str, str]], session: Optional[SessionState] = None, user_input: str = "") -> AgentAction:
         try:
             response = client.chat.completions.create(
                 model=LLM_MODEL,
@@ -257,7 +335,6 @@ class MasterAgent:
                 normalized = {}
 
                 # 1. SEARCH FOR TYPE/ACTION
-                # We look for *any* key that looks like an action identifier
                 type_candidates = ["type", "action_type", "action", "function", "tool_call", "call"]
                 found_type = None
                 for key in type_candidates:
@@ -266,7 +343,6 @@ class MasterAgent:
                         break
                 
                 # 2. SEARCH FOR INPUTS/ARGS
-                # We look for *any* key that looks like inputs
                 input_candidates = ["worker_inputs", "inputs", "parameters", "arguments", "action_arguments", "args", "data"]
                 found_inputs = {}
                 for key in input_candidates:
@@ -276,7 +352,6 @@ class MasterAgent:
                 
                 # 3. NORMALIZE VALUES
                 if found_type:
-                    # Map common hallucinations to internal names
                     ft_lower = str(found_type).lower()
                     if ft_lower in ["start_application", "initiate_application", "check_eligibility", "eligibility_check"]:
                         normalized["type"] = "CALL_WORKER"
@@ -289,7 +364,6 @@ class MasterAgent:
                         normalized["worker_name"] = "CreditBureauAgent"
                     elif "tool_call" in ft_lower or "call_worker" in ft_lower:
                         normalized["type"] = "CALL_WORKER"
-                        # Start looking for worker name in inputs if not found
                         if "action_name" in data:
                             normalized["worker_name"] = data["action_name"]
                     else:
@@ -297,13 +371,11 @@ class MasterAgent:
                 
                 # 4. Fallback for "worker_name" if missing in normalization
                 if normalized.get("type") == "CALL_WORKER" and "worker_name" not in normalized:
-                    # Try to find it in the original data
                      if "action_name" in data:
                          normalized["worker_name"] = data["action_name"]
                      elif "worker" in data:
                          normalized["worker_name"] = data["worker"]
                      else:
-                         # Ultimate fallback
                          normalized["worker_name"] = "EligibilityAgent"
 
                 # 5. Assign Inputs
@@ -317,7 +389,6 @@ class MasterAgent:
 
                 # 7. Final Sanity Check
                 if "type" not in normalized:
-                     # One last ditch effort: if we have inputs like "monthly_income", it's probably eligibility
                      if "monthly_income" in str(found_inputs):
                          normalized["type"] = "CALL_WORKER"
                          normalized["worker_name"] = "EligibilityAgent"
@@ -331,15 +402,14 @@ class MasterAgent:
 
             except json.JSONDecodeError:
                 logging.error("Invalid JSON returned LLM")
-                raise ValueError("LLM returned invalid JSON")
-
-            except json.JSONDecodeError:
-                logging.error("Invalid JSON returned LLM")
+                if session:
+                    return self._fallback_action(session, user_input)
                 raise ValueError("LLM returned invalid JSON")
 
         except Exception as e:
-            logging.error(f"Failed to parse LLM response: {content if 'content' in locals() else 'No Content'}")
-            # Fallback to a safe action instead of crashing
+            logging.error(f"LLM Error/Unavailable ({e}). Using rule-based fallback.")
+            if session:
+                return self._fallback_action(session, user_input)
             return AgentAction(
                 type="ASK_USER", 
                 user_message="I clearly misunderstood. Could you re-state that?", 

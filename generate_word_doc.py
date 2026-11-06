@@ -5,10 +5,15 @@ import os
 def generate_word_doc():
     document = Document()
     
+    # Document Metadata Properties
+    document.core_properties.author = 'Pawan Kalyan'
+    document.core_properties.last_modified_by = 'Pawan Kalyan'
+    document.core_properties.title = 'Agentic Loan Underwriting: Empirical Validation (IEEE 2026)'
+    
     document.add_heading('Agentic Loan Underwriting: Empirical Validation (IEEE 2026)', 0)
     
-    document.add_paragraph('Authors: Antigravity')
-    document.add_paragraph('Artifact ID: ROOP-IEEE-2026-VAL')
+    document.add_paragraph('Author: Pawan Kalyan')
+    document.add_paragraph('Artifact ID: IEEE-2026-VAL')
     document.add_paragraph('Date: 2026-02-06')
     
     # 1. Dataset Construction
@@ -116,7 +121,7 @@ def generate_word_doc():
     document.add_paragraph('2. run_experiments.sh (Master Runner)', style='List Bullet')
     document.add_paragraph('3. logs/final_decisions_primary.csv (Raw Audit Trail)', style='List Bullet')
     
-    document.save('Roop_IEEE_Validation.docx')
+    document.save('IEEE_Validation.docx')
     print("Document saved successfully.")
 
 if __name__ == "__main__":

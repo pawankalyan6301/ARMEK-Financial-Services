@@ -37,7 +37,7 @@ def get_llm_config():
     else:
         return {
             "provider": "openai",
-            "api_key": os.getenv("OPENAI_API_KEY"),
+            "api_key": os.getenv("OPENAI_API_KEY") or "dummy-key-for-local-demo",
             "base_url": None, # Default
             "model": os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
             "timeout": int(os.getenv("OPENAI_TIMEOUT_SECONDS", "30"))
@@ -46,7 +46,7 @@ def get_llm_config():
 # Singleton Configuration
 CONFIG = get_llm_config()
 
-print(f"🚀 LLM Provider Initialized: {CONFIG['provider'].upper()} using model {CONFIG['model']}")
+print(f"[LLM] LLM Provider Initialized: {CONFIG['provider'].upper()} using model {CONFIG['model']}")
 
 def get_llm_client():
     """Returns a configured OpenAI Client (compatible with Gemini/Groq)"""

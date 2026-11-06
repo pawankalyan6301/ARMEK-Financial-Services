@@ -54,7 +54,7 @@ Production implementation of the Master-Worker agent architecture for conversati
 ## Quick Start
 
 ```bash
-git clone https://github.com/RoopKumar3244/loan-agentic-underwriting
+git clone https://github.com/pawankalyan6301/loan-agentic-underwriting
 cd loan-agentic-underwriting
 pip install -r requirements.txt
 
@@ -104,7 +104,5 @@ RBI-compliant data storage
 
 Current: Research prototype with simulated services matching paper evaluation.
 
-Author
-A. Roop Kumar
-Department of Computer Science and Engineering
-Kuppam Engineering College, Kuppam, India
+## Author
+Pawan Kalyan ([@pawankalyan6301](https://github.com/pawankalyan6301))

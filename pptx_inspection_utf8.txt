@@ -1,0 +1,511 @@
+Total slides: 10
+Dimensions: 13.333 x 7.500 inches
+
+
+==================== SLIDE 1 ====================
+  [Shape 1] Name: "Text 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.67), Size: (11.89 x 1.08)
+    P1: ARMEK – Agentic AI-Powered Loan Underwriting and Risk Assessment System
+  [Shape 2] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.39, 2.06), Size: (12.55 x 0.34)
+    P1: Kuppam Engineering College · Department of Computer Science and Engineering · Academic Year: 2026–2027
+  [Shape 3] Name: "Shape 2", Type: AUTO_SHAPE (1), Pos: (0.72, 2.62), Size: (11.89 x 0.02)
+  [Shape 4] Name: "Shape 3", Type: AUTO_SHAPE (1), Pos: (0.60, 2.87), Size: (6.60 x 3.98)
+  [Shape 5] Name: "Text 4", Type: AUTO_SHAPE (1), Pos: (0.77, 3.04), Size: (6.25 x 0.32)
+    P1: Abstract
+  [Shape 6] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (0.77, 3.52), Size: (6.25 x 3.18)
+    P1: ARMEK is an AI-powered financial services system designed to simplify loan application processing and risk assessment. It uses a multi-agent architecture in which a Master Agent coordinates specialized worker agents to process applicant information, perform eligibility checks, carry out verification workflows, assess credit-related risk and generate loan-related documents.
+    P2: The system combines a React frontend, FastAPI backend and OpenAI GPT-4o-mini integration to support an organized and conversational loan processing experience.
+  [Shape 7] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (7.50, 3.04), Size: (5.12 x 0.32)
+    P1: Team Members
+  [Shape 8] Name: "Image 0", Type: PICTURE (13), Pos: (7.48, 3.52), Size: (5.14 x 0.38)
+    Picture: format=image/png, size=(1542, 115)
+  [Shape 9] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (7.71, 3.54), Size: (4.90 x 0.34)
+    P1: Y N PAWANKALYAN
+  [Shape 10] Name: "Image 1", Type: PICTURE (13), Pos: (7.48, 4.19), Size: (5.14 x 0.38)
+    Picture: format=image/png, size=(1542, 115)
+  [Shape 11] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (7.71, 4.21), Size: (4.90 x 0.34)
+    P1: V RAMYA
+  [Shape 12] Name: "Image 2", Type: PICTURE (13), Pos: (7.48, 4.85), Size: (5.14 x 0.38)
+    Picture: format=image/png, size=(1542, 115)
+  [Shape 13] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (7.71, 4.87), Size: (4.90 x 0.34)
+    P1: C NANDINI
+  [Shape 14] Name: "Image 3", Type: PICTURE (13), Pos: (7.48, 5.52), Size: (5.14 x 0.38)
+    Picture: format=image/png, size=(1542, 115)
+  [Shape 15] Name: "Text 10", Type: AUTO_SHAPE (1), Pos: (7.71, 5.54), Size: (4.90 x 0.34)
+    P1: S DILLI RAJESH
+
+==================== SLIDE 2 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.76), Size: (1.11 x 0.22)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.81, 0.81), Size: (0.12 x 0.12)
+    Picture: format=image/png, size=(34, 34)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.98, 0.81), Size: (1.43 x 0.13)
+    P1: BACKGROUND
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 1.04), Size: (11.89 x 0.45)
+    P1: Introduction
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.65), Size: (11.89 x 0.52)
+    P1: Loan underwriting is the foundational process by which financial institutions evaluate a borrower's eligibility and repayment capacity. Understanding the limitations of traditional approaches motivates the design of ARMEK.
+  [Shape 6] Name: "Shape 4", Type: AUTO_SHAPE (1), Pos: (0.62, 2.30), Size: (5.98 x 4.44)
+  [Shape 7] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (0.76, 2.42), Size: (5.69 x 0.27)
+    P1: The Traditional Landscape
+  [Shape 8] Name: "Shape 6", Type: AUTO_SHAPE (1), Pos: (0.76, 2.82), Size: (0.33 x 0.33)
+  [Shape 9] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (0.82, 2.85), Size: (0.22 x 0.27)
+    P1: 1
+  [Shape 10] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (1.21, 2.85), Size: (5.24 x 0.27)
+    P1: Eligibility Evaluation
+  [Shape 11] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (1.21, 3.23), Size: (5.24 x 0.52)
+    P1: Loan underwriting involves evaluating a borrower's eligibility and repayment capacity against defined financial criteria.
+  [Shape 12] Name: "Shape 10", Type: AUTO_SHAPE (1), Pos: (0.76, 3.99), Size: (0.33 x 0.33)
+  [Shape 13] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (0.82, 4.01), Size: (0.22 x 0.27)
+    P1: 2
+  [Shape 14] Name: "Text 12", Type: AUTO_SHAPE (1), Pos: (1.21, 4.01), Size: (5.24 x 0.27)
+    P1: Multi-Stage Document Review
+  [Shape 15] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (1.21, 4.40), Size: (5.24 x 0.52)
+    P1: Traditional loan processing involves several checks and document reviews across multiple departments and personnel.
+  [Shape 16] Name: "Shape 14", Type: AUTO_SHAPE (1), Pos: (0.76, 5.15), Size: (0.33 x 0.33)
+  [Shape 17] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (0.82, 5.18), Size: (0.22 x 0.27)
+    P1: 3
+  [Shape 18] Name: "Text 16", Type: AUTO_SHAPE (1), Pos: (1.21, 5.18), Size: (5.24 x 0.27)
+    P1: Time and Coordination Costs
+  [Shape 19] Name: "Text 17", Type: AUTO_SHAPE (1), Pos: (1.21, 5.57), Size: (5.24 x 0.78)
+    P1: Manual processing can require considerable time and coordination, creating friction for both applicants and institutions.
+  [Shape 20] Name: "Text 18", Type: AUTO_SHAPE (1), Pos: (6.85, 2.42), Size: (5.77 x 0.27)
+    P1: The Case for AI-Assisted Processing
+  [Shape 21] Name: "Shape 19", Type: AUTO_SHAPE (1), Pos: (6.85, 2.82), Size: (0.33 x 0.33)
+  [Shape 22] Name: "Text 20", Type: AUTO_SHAPE (1), Pos: (6.90, 2.85), Size: (0.22 x 0.27)
+    P1: 1
+  [Shape 23] Name: "Text 21", Type: AUTO_SHAPE (1), Pos: (7.29, 2.85), Size: (5.33 x 0.27)
+    P1: Information Inconsistency
+  [Shape 24] Name: "Text 22", Type: AUTO_SHAPE (1), Pos: (7.29, 3.23), Size: (5.33 x 0.78)
+    P1: Inconsistent or incomplete applicant information can make structured assessment more difficult without automated validation.
+  [Shape 25] Name: "Shape 23", Type: AUTO_SHAPE (1), Pos: (6.85, 4.25), Size: (0.33 x 0.33)
+  [Shape 26] Name: "Text 24", Type: AUTO_SHAPE (1), Pos: (6.90, 4.27), Size: (0.22 x 0.27)
+    P1: 2
+  [Shape 27] Name: "Text 25", Type: AUTO_SHAPE (1), Pos: (7.29, 4.27), Size: (5.33 x 0.27)
+    P1: AI as a Processing Layer
+  [Shape 28] Name: "Text 26", Type: AUTO_SHAPE (1), Pos: (7.29, 4.66), Size: (5.33 x 0.52)
+    P1: AI can support information processing and structured decision workflows, reducing reliance on purely manual coordination.
+  [Shape 29] Name: "Shape 27", Type: AUTO_SHAPE (1), Pos: (6.85, 5.41), Size: (0.33 x 0.33)
+  [Shape 30] Name: "Text 28", Type: AUTO_SHAPE (1), Pos: (6.90, 5.44), Size: (0.22 x 0.27)
+    P1: 3
+  [Shape 31] Name: "Text 29", Type: AUTO_SHAPE (1), Pos: (7.29, 5.44), Size: (5.33 x 0.27)
+    P1: ARMEK's Contribution
+  [Shape 32] Name: "Text 30", Type: AUTO_SHAPE (1), Pos: (7.29, 5.83), Size: (5.33 x 0.78)
+    P1: ARMEK brings these activities together through an agent-based system, unifying eligibility, verification and document generation into a single orchestrated pipeline.
+
+==================== SLIDE 3 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.54), Size: (1.00 x 0.18)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.79, 0.58), Size: (0.09 x 0.09)
+    Picture: format=image/png, size=(28, 28)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.93, 0.58), Size: (1.39 x 0.11)
+    P1: PROJECT GOALS
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 0.76), Size: (11.89 x 0.37)
+    P1: Objectives
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.90, 1.32), Size: (11.71 x 0.39)
+    P1: Main Objective: To develop an AI-powered loan underwriting system that organizes applicant information processing, verification workflows and risk assessment through a multi-agent architecture.
+  [Shape 6] Name: "Shape 4", Type: AUTO_SHAPE (1), Pos: (0.72, 1.23), Size: (0.01 x 0.56)
+  [Shape 7] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (0.72, 1.91), Size: (11.89 x 0.22)
+    P1: Specific Objectives
+  [Shape 8] Name: "Image 1", Type: PICTURE (13), Pos: (0.72, 2.24), Size: (11.89 x 0.72)
+    Picture: format=image/png, size=(3567, 219)
+  [Shape 9] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (0.88, 2.49), Size: (0.18 x 0.22)
+    P1: 1
+  [Shape 10] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (1.28, 2.37), Size: (11.19 x 0.22)
+    P1: User Interface
+  [Shape 11] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (1.28, 2.64), Size: (11.19 x 0.19)
+    P1: Provide a user-friendly loan application interface accessible to applicants without technical expertise.
+  [Shape 12] Name: "Image 2", Type: PICTURE (13), Pos: (0.72, 3.04), Size: (11.89 x 0.72)
+    Picture: format=image/png, size=(3567, 219)
+  [Shape 13] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (0.88, 3.29), Size: (0.18 x 0.22)
+    P1: 2
+  [Shape 14] Name: "Text 10", Type: AUTO_SHAPE (1), Pos: (1.28, 3.17), Size: (11.19 x 0.22)
+    P1: Information Collection
+  [Shape 15] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (1.28, 3.44), Size: (11.19 x 0.19)
+    P1: Collect and process applicant information in a structured and validated manner through the backend pipeline.
+  [Shape 16] Name: "Image 3", Type: PICTURE (13), Pos: (0.72, 3.84), Size: (11.89 x 0.72)
+    Picture: format=image/png, size=(3567, 219)
+  [Shape 17] Name: "Text 12", Type: AUTO_SHAPE (1), Pos: (0.88, 4.09), Size: (0.18 x 0.22)
+    P1: 3
+  [Shape 18] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (1.28, 3.97), Size: (11.19 x 0.22)
+    P1: Agent Coordination
+  [Shape 19] Name: "Text 14", Type: AUTO_SHAPE (1), Pos: (1.28, 4.24), Size: (11.19 x 0.19)
+    P1: Coordinate loan assessment through a Master Agent that delegates tasks to specialized worker agents.
+  [Shape 20] Name: "Image 4", Type: PICTURE (13), Pos: (0.72, 4.64), Size: (11.89 x 0.72)
+    Picture: format=image/png, size=(3567, 219)
+  [Shape 21] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (0.88, 4.89), Size: (0.18 x 0.22)
+    P1: 4
+  [Shape 22] Name: "Text 16", Type: AUTO_SHAPE (1), Pos: (1.28, 4.77), Size: (11.19 x 0.22)
+    P1: Eligibility & Verification
+  [Shape 23] Name: "Text 17", Type: AUTO_SHAPE (1), Pos: (1.28, 5.04), Size: (11.19 x 0.19)
+    P1: Perform eligibility and verification checks as discrete, auditable steps within the processing workflow.
+  [Shape 24] Name: "Image 5", Type: PICTURE (13), Pos: (0.72, 5.44), Size: (11.89 x 0.72)
+    Picture: format=image/png, size=(3567, 219)
+  [Shape 25] Name: "Text 18", Type: AUTO_SHAPE (1), Pos: (0.88, 5.69), Size: (0.18 x 0.22)
+    P1: 5
+  [Shape 26] Name: "Text 19", Type: AUTO_SHAPE (1), Pos: (1.28, 5.57), Size: (11.19 x 0.22)
+    P1: Risk & Fraud Assessment
+  [Shape 27] Name: "Text 20", Type: AUTO_SHAPE (1), Pos: (1.28, 5.84), Size: (11.19 x 0.19)
+    P1: Support credit-related risk assessment and fraud checks to inform the underwriting decision.
+  [Shape 28] Name: "Image 6", Type: PICTURE (13), Pos: (0.72, 6.24), Size: (11.89 x 0.72)
+    Picture: format=image/png, size=(3567, 219)
+  [Shape 29] Name: "Text 21", Type: AUTO_SHAPE (1), Pos: (0.88, 6.49), Size: (0.18 x 0.22)
+    P1: 6
+  [Shape 30] Name: "Text 22", Type: AUTO_SHAPE (1), Pos: (1.28, 6.37), Size: (11.19 x 0.22)
+    P1: Document Generation
+  [Shape 31] Name: "Text 23", Type: AUTO_SHAPE (1), Pos: (1.28, 6.63), Size: (11.19 x 0.19)
+    P1: Generate loan-related documents and display application status clearly through the interface.
+
+==================== SLIDE 4 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.90), Size: (1.66 x 0.22)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.81, 0.95), Size: (0.12 x 0.12)
+    Picture: format=image/png, size=(34, 34)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.98, 0.94), Size: (1.98 x 0.13)
+    P1: ACADEMIC FOUNDATION
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 1.17), Size: (11.89 x 0.45)
+    P1: Literature Survey
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.79), Size: (11.89 x 0.52)
+    P1: Three peer-reviewed research papers form the academic basis for ARMEK's design, establishing the viability of machine-learning and AI methods in loan underwriting and credit-risk prediction.
+  [Shape 6] Name: "Image 1", Type: PICTURE (13), Pos: (0.72, 2.44), Size: (3.88 x 4.16)
+    Picture: format=image/png, size=(1167, 1250)
+  [Shape 7] Name: "Shape 4", Type: AUTO_SHAPE (1), Pos: (0.97, 2.60), Size: (2.18 x 0.22)
+  [Shape 8] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (1.06, 2.65), Size: (2.01 x 0.13)
+    P1: 2020 · ROYAL SOCIETY OPEN SCIENCE
+  [Shape 9] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (0.97, 2.87), Size: (3.47 x 0.81)
+    P1: Turiel & Aste — Peer-to-Peer Loan Acceptance and Default Prediction with Artificial Intelligence
+  [Shape 10] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (0.97, 3.75), Size: (3.47 x 2.41)
+    P1: Royal Society Open Science, 7(6), 191649. Uses machine-learning methods including logistic regression, support vector machines and deep neural networks applied to P2P lending data.
+    P2: Key Finding: AI-based models can support loan acceptance decisions and default-risk prediction, demonstrating the feasibility of algorithmic underwriting.
+  [Shape 11] Name: "Image 2", Type: PICTURE (13), Pos: (4.72, 2.44), Size: (3.88 x 4.16)
+    Picture: format=image/png, size=(1167, 1250)
+  [Shape 12] Name: "Shape 8", Type: AUTO_SHAPE (1), Pos: (4.97, 2.60), Size: (1.64 x 0.22)
+  [Shape 13] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (5.06, 2.65), Size: (1.47 x 0.13)
+    P1: 2021 · SCIENTIFIC REPORTS
+  [Shape 14] Name: "Text 10", Type: AUTO_SHAPE (1), Pos: (4.97, 2.87), Size: (3.47 x 0.81)
+    P1: Xu, Lu & Xie — Loan Default Prediction of Chinese P2P Market: A Machine Learning Methodology
+  [Shape 15] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (4.97, 3.75), Size: (3.47 x 2.41)
+    P1: Scientific Reports, 11, 18759. Compares machine-learning methods such as Random Forest, Gradient Boosting and Neural Networks on Chinese P2P lending datasets.
+    P2: Key Finding: Machine-learning methods can help identify factors associated with loan repayment risk, supporting feature-driven credit assessment.
+  [Shape 16] Name: "Image 3", Type: PICTURE (13), Pos: (8.72, 2.44), Size: (3.88 x 4.16)
+    Picture: format=image/png, size=(1167, 1250)
+  [Shape 17] Name: "Shape 12", Type: AUTO_SHAPE (1), Pos: (8.97, 2.60), Size: (1.81 x 0.22)
+  [Shape 18] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (9.06, 2.65), Size: (1.63 x 0.13)
+    P1: 2022 · FINANCIAL INNOVATION
+  [Shape 19] Name: "Text 14", Type: AUTO_SHAPE (1), Pos: (8.97, 2.87), Size: (3.47 x 1.09)
+    P1: Alonso Robisco & Carbó Martínez — Measuring the Model Risk-Adjusted Performance of ML Algorithms in Credit Default Prediction
+  [Shape 20] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (8.97, 4.03), Size: (3.47 x 2.41)
+    P1: Financial Innovation, 8, 70. Studies machine-learning models for credit-default prediction and examines both predictive performance and associated model risks.
+    P2: Key Finding: Models such as Random Forest and XGBoost can be useful for credit-default prediction, but model risk and validation are critically important considerations.
+
+==================== SLIDE 5 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.58), Size: (0.83 x 0.18)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.79, 0.62), Size: (0.09 x 0.09)
+    Picture: format=image/png, size=(28, 28)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.93, 0.62), Size: (1.22 x 0.11)
+    P1: STATUS QUO
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 0.80), Size: (11.89 x 0.37)
+    P1: Existing System
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.27), Size: (12.55 x 0.19)
+    P1: Conventional loan processing follows a sequential, largely manual workflow. Understanding this baseline is essential to appreciating the structural improvements ARMEK introduces.
+  [Shape 6] Name: "Text 4", Type: AUTO_SHAPE (1), Pos: (0.72, 1.64), Size: (6.41 x 0.22)
+    P1: Conventional Loan Processing Workflow
+  [Shape 7] Name: "Image 1", Type: PICTURE (13), Pos: (1.84, 1.93), Size: (4.17 x 1.56)
+    Picture: format=image/png, size=(1200, 452)
+  [Shape 8] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (5.21, 3.12), Size: (0.63 x 0.12)
+    P1: Stage Reviews
+  [Shape 9] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (4.42, 3.12), Size: (0.63 x 0.12)
+    P1: Credit Check
+  [Shape 10] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (3.63, 3.06), Size: (0.63 x 0.24)
+    P1: Assess Eligibility
+  [Shape 11] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (2.84, 3.12), Size: (0.63 x 0.12)
+    P1: Collect Docs
+  [Shape 12] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (2.04, 3.12), Size: (0.63 x 0.12)
+    P1: Apply
+  [Shape 13] Name: "Shape 10", Type: AUTO_SHAPE (1), Pos: (7.34, 1.55), Size: (5.36 x 5.37)
+  [Shape 14] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (7.46, 1.64), Size: (5.13 x 0.22)
+    P1: Advantages of the Existing System
+  [Shape 15] Name: "Image 2", Type: PICTURE (13), Pos: (7.50, 1.96), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 16] Name: "Text 12", Type: AUTO_SHAPE (1), Pos: (7.84, 1.93), Size: (4.74 x 0.19)
+    P1: Established lending procedures with regulatory familiarity
+  [Shape 17] Name: "Image 3", Type: PICTURE (13), Pos: (7.50, 2.50), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 18] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (7.84, 2.47), Size: (4.74 x 0.19)
+    P1: Human review available for complex or edge-case applications
+  [Shape 19] Name: "Image 4", Type: PICTURE (13), Pos: (7.50, 3.03), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 20] Name: "Text 14", Type: AUTO_SHAPE (1), Pos: (7.84, 3.00), Size: (4.74 x 0.19)
+    P1: Familiar verification processes accepted by institutions
+  [Shape 21] Name: "Image 5", Type: PICTURE (13), Pos: (7.50, 3.57), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 22] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (7.84, 3.54), Size: (4.74 x 0.19)
+    P1: Suitable for standard banking workflows and compliance frameworks
+  [Shape 23] Name: "Text 16", Type: AUTO_SHAPE (1), Pos: (7.46, 4.01), Size: (5.13 x 0.22)
+    P1: Disadvantages of the Existing System
+  [Shape 24] Name: "Image 6", Type: PICTURE (13), Pos: (7.50, 4.34), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 25] Name: "Text 17", Type: AUTO_SHAPE (1), Pos: (7.84, 4.31), Size: (4.74 x 0.19)
+    P1: Multiple manual processing stages increase turnaround time
+  [Shape 26] Name: "Image 7", Type: PICTURE (13), Pos: (7.50, 4.88), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 27] Name: "Text 18", Type: AUTO_SHAPE (1), Pos: (7.84, 4.85), Size: (4.74 x 0.19)
+    P1: Repeated document handling across departments
+  [Shape 28] Name: "Image 8", Type: PICTURE (13), Pos: (7.50, 5.41), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 29] Name: "Text 19", Type: AUTO_SHAPE (1), Pos: (7.84, 5.38), Size: (4.74 x 0.19)
+    P1: Coordination overhead between different review teams
+  [Shape 30] Name: "Image 9", Type: PICTURE (13), Pos: (7.50, 5.95), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 31] Name: "Text 20", Type: AUTO_SHAPE (1), Pos: (7.84, 5.92), Size: (4.74 x 0.19)
+    P1: Delays may occur during application review and escalation
+  [Shape 32] Name: "Image 10", Type: PICTURE (13), Pos: (7.50, 6.48), Size: (0.18 x 0.18)
+    Picture: format=image/png, size=(54, 54)
+  [Shape 33] Name: "Text 21", Type: AUTO_SHAPE (1), Pos: (7.84, 6.45), Size: (4.74 x 0.19)
+    P1: Limited automation in some verification and assessment workflows
+
+==================== SLIDE 6 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.59), Size: (1.21 x 0.18)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.79, 0.63), Size: (0.09 x 0.09)
+    Picture: format=image/png, size=(27, 27)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.93, 0.62), Size: (1.60 x 0.11)
+    P1: PROPOSED SOLUTION
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 0.80), Size: (11.89 x 0.36)
+    P1: Proposed System: ARMEK
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.27), Size: (11.89 x 0.38)
+    P1: ARMEK – Agentic AI-Powered Loan Underwriting and Risk Assessment System addresses the limitations of conventional processing through a coordinated multi-agent architecture backed by modern web technologies.
+  [Shape 6] Name: "Shape 4", Type: AUTO_SHAPE (1), Pos: (0.64, 1.73), Size: (5.97 x 5.18)
+  [Shape 7] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (0.76, 1.81), Size: (5.74 x 0.18)
+    P1: Key System Components
+  [Shape 8] Name: "Shape 6", Type: AUTO_SHAPE (1), Pos: (0.76, 2.07), Size: (2.83 x 1.06)
+  [Shape 9] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (0.87, 2.18), Size: (2.60 x 0.18)
+    P1: React Interface
+  [Shape 10] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (0.87, 2.44), Size: (2.60 x 0.57)
+    P1: React-based frontend for structured applicant interaction and real-time status display.
+  [Shape 11] Name: "Shape 9", Type: AUTO_SHAPE (1), Pos: (3.66, 2.07), Size: (2.83 x 1.06)
+  [Shape 12] Name: "Text 10", Type: AUTO_SHAPE (1), Pos: (3.78, 2.18), Size: (2.60 x 0.18)
+    P1: FastAPI Backend
+  [Shape 13] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (3.78, 2.44), Size: (2.60 x 0.57)
+    P1: Python FastAPI backend handling application processing, routing and Pydantic-validated data models.
+  [Shape 14] Name: "Shape 12", Type: AUTO_SHAPE (1), Pos: (0.76, 3.19), Size: (2.83 x 1.06)
+  [Shape 15] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (0.87, 3.31), Size: (2.60 x 0.18)
+    P1: GPT-4o-mini Integration
+  [Shape 16] Name: "Text 14", Type: AUTO_SHAPE (1), Pos: (0.87, 3.57), Size: (2.60 x 0.57)
+    P1: OpenAI GPT-4o-mini integration enabling conversational AI processing within the underwriting pipeline.
+  [Shape 17] Name: "Shape 15", Type: AUTO_SHAPE (1), Pos: (3.66, 3.19), Size: (2.83 x 1.06)
+  [Shape 18] Name: "Text 16", Type: AUTO_SHAPE (1), Pos: (3.78, 3.31), Size: (2.60 x 0.18)
+    P1: Master Agent
+  [Shape 19] Name: "Text 17", Type: AUTO_SHAPE (1), Pos: (3.78, 3.57), Size: (2.60 x 0.57)
+    P1: Central orchestrator coordinating all specialized worker agents across the assessment workflow.
+  [Shape 20] Name: "Text 18", Type: AUTO_SHAPE (1), Pos: (6.81, 1.81), Size: (5.80 x 0.18)
+    P1: Agent Workflows
+  [Shape 21] Name: "Shape 19", Type: AUTO_SHAPE (1), Pos: (6.81, 2.07), Size: (0.46 x 0.69)
+  [Shape 22] Name: "Text 20", Type: AUTO_SHAPE (1), Pos: (6.96, 2.30), Size: (0.17 x 0.22)
+    P1: 1
+  [Shape 23] Name: "Text 21", Type: AUTO_SHAPE (1), Pos: (7.35, 2.18), Size: (5.27 x 0.18)
+    P1: Eligibility Agent
+  [Shape 24] Name: "Text 22", Type: AUTO_SHAPE (1), Pos: (7.35, 2.44), Size: (5.27 x 0.19)
+    P1: Evaluates applicant financial criteria against defined eligibility thresholds.
+  [Shape 25] Name: "Shape 23", Type: AUTO_SHAPE (1), Pos: (6.81, 2.83), Size: (0.46 x 0.69)
+  [Shape 26] Name: "Text 24", Type: AUTO_SHAPE (1), Pos: (6.96, 3.07), Size: (0.17 x 0.22)
+    P1: 2
+  [Shape 27] Name: "Text 25", Type: AUTO_SHAPE (1), Pos: (7.35, 2.95), Size: (5.27 x 0.18)
+    P1: State Reconciliation Agent
+  [Shape 28] Name: "Text 26", Type: AUTO_SHAPE (1), Pos: (7.35, 3.20), Size: (5.27 x 0.19)
+    P1: Reconciles applicant-provided information for consistency across the application.
+  [Shape 29] Name: "Shape 27", Type: AUTO_SHAPE (1), Pos: (6.81, 3.60), Size: (0.46 x 0.87)
+  [Shape 30] Name: "Text 28", Type: AUTO_SHAPE (1), Pos: (6.96, 3.93), Size: (0.17 x 0.22)
+    P1: 3
+  [Shape 31] Name: "Text 29", Type: AUTO_SHAPE (1), Pos: (7.35, 3.72), Size: (5.27 x 0.18)
+    P1: Credit Bureau Agent
+  [Shape 32] Name: "Text 30", Type: AUTO_SHAPE (1), Pos: (7.35, 3.97), Size: (5.27 x 0.38)
+    P1: Performs simulated credit-related verification checks within the processing pipeline.
+  [Shape 33] Name: "Shape 31", Type: AUTO_SHAPE (1), Pos: (6.81, 4.54), Size: (0.46 x 0.69)
+  [Shape 34] Name: "Text 32", Type: AUTO_SHAPE (1), Pos: (6.96, 4.78), Size: (0.17 x 0.22)
+    P1: 4
+  [Shape 35] Name: "Text 33", Type: AUTO_SHAPE (1), Pos: (7.35, 4.66), Size: (5.27 x 0.18)
+    P1: Fraud Detection Agent
+  [Shape 36] Name: "Text 34", Type: AUTO_SHAPE (1), Pos: (7.35, 4.91), Size: (5.27 x 0.19)
+    P1: Applies fraud-detection logic to flag anomalous or inconsistent application data.
+  [Shape 37] Name: "Shape 35", Type: AUTO_SHAPE (1), Pos: (6.81, 5.31), Size: (0.46 x 0.87)
+  [Shape 38] Name: "Text 36", Type: AUTO_SHAPE (1), Pos: (6.96, 5.63), Size: (0.17 x 0.22)
+    P1: 5
+  [Shape 39] Name: "Text 37", Type: AUTO_SHAPE (1), Pos: (7.35, 5.43), Size: (5.27 x 0.18)
+    P1: Document Generation Agent
+  [Shape 40] Name: "Text 38", Type: AUTO_SHAPE (1), Pos: (7.35, 5.68), Size: (5.27 x 0.38)
+    P1: Produces loan-related documents using ReportLab and pypdf upon workflow completion.
+  [Shape 41] Name: "Shape 39", Type: AUTO_SHAPE (1), Pos: (6.81, 6.26), Size: (5.80 x 0.57)
+  [Shape 42] Name: "Image 1", Type: PICTURE (13), Pos: (6.93, 6.37), Size: (0.18 x 0.14)
+    Picture: format=image/png, size=(54, 42)
+  [Shape 43] Name: "Text 40", Type: AUTO_SHAPE (1), Pos: (7.23, 6.35), Size: (5.27 x 0.38)
+    P1: Technology Stack: React.js 19 · Bootstrap 5 · Axios · Python FastAPI · Uvicorn · OpenAI API · Pydantic · ReportLab · pypdf
+
+==================== SLIDE 7 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.78), Size: (1.25 x 0.21)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.80, 0.83), Size: (0.11 x 0.11)
+    Picture: format=image/png, size=(32, 32)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.97, 0.82), Size: (1.59 x 0.12)
+    P1: SYSTEM BENEFITS
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 1.04), Size: (11.89 x 0.42)
+    P1: Proposed System: Advantages
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.61), Size: (11.89 x 0.47)
+    P1: ARMEK's multi-agent design delivers structural improvements over conventional loan processing by distributing responsibilities across specialized agents coordinated by a single Master Agent.
+  [Shape 6] Name: "Image 1", Type: PICTURE (13), Pos: (0.72, 2.19), Size: (0.34 x 0.34)
+    Picture: format=image/png, size=(102, 102)
+  [Shape 7] Name: "Text 4", Type: AUTO_SHAPE (1), Pos: (0.72, 2.66), Size: (5.88 x 0.21)
+    P1: Organized Multi-Agent Workflow
+  [Shape 8] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (0.72, 2.93), Size: (5.88 x 0.71)
+    P1: Processing tasks are distributed across specialized worker agents, each with a clearly defined responsibility, reducing the risk of bottlenecks in any single stage.
+  [Shape 9] Name: "Image 2", Type: PICTURE (13), Pos: (6.73, 2.19), Size: (0.34 x 0.34)
+    Picture: format=image/png, size=(102, 102)
+  [Shape 10] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (6.73, 2.66), Size: (5.88 x 0.21)
+    P1: Reduced Manual Coordination
+  [Shape 11] Name: "Text 7", Type: AUTO_SHAPE (1), Pos: (6.73, 2.93), Size: (5.88 x 0.47)
+    P1: Repetitive manual coordination steps are replaced by automated agent handoffs orchestrated by the Master Agent, streamlining the overall workflow.
+  [Shape 12] Name: "Image 3", Type: PICTURE (13), Pos: (0.72, 3.85), Size: (0.34 x 0.34)
+    Picture: format=image/png, size=(102, 102)
+  [Shape 13] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (0.72, 4.32), Size: (5.88 x 0.21)
+    P1: Centralized Information Processing
+  [Shape 14] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (0.72, 4.59), Size: (5.88 x 0.47)
+    P1: Applicant information is collected, validated and processed through a single backend pipeline, reducing duplication and inconsistency across stages.
+  [Shape 15] Name: "Image 4", Type: PICTURE (13), Pos: (6.73, 3.85), Size: (0.34 x 0.34)
+    Picture: format=image/png, size=(102, 102)
+  [Shape 16] Name: "Text 10", Type: AUTO_SHAPE (1), Pos: (6.73, 4.32), Size: (5.88 x 0.21)
+    P1: Conversational AI Interaction
+  [Shape 17] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (6.73, 4.59), Size: (5.88 x 0.47)
+    P1: GPT-4o-mini integration enables a conversational interface, making the application process more accessible and guided for end users.
+  [Shape 18] Name: "Image 5", Type: PICTURE (13), Pos: (0.72, 5.27), Size: (0.34 x 0.34)
+    Picture: format=image/png, size=(102, 102)
+  [Shape 19] Name: "Text 12", Type: AUTO_SHAPE (1), Pos: (0.72, 5.73), Size: (5.88 x 0.21)
+    P1: Separation of Concerns
+  [Shape 20] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (0.72, 6.01), Size: (5.88 x 0.71)
+    P1: Each worker agent holds a distinct responsibility — eligibility, reconciliation, credit checks, fraud detection or document generation — enabling modular development and testing.
+  [Shape 21] Name: "Image 6", Type: PICTURE (13), Pos: (6.73, 5.27), Size: (0.34 x 0.34)
+    Picture: format=image/png, size=(102, 102)
+  [Shape 22] Name: "Text 14", Type: AUTO_SHAPE (1), Pos: (6.73, 5.73), Size: (5.88 x 0.21)
+    P1: Clear Status and Document Output
+  [Shape 23] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (6.73, 6.01), Size: (5.88 x 0.47)
+    P1: The system provides a transparent application status view and generates loan-related documents automatically upon workflow completion.
+
+==================== SLIDE 8 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.52), Size: (1.03 x 0.16)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.79, 0.56), Size: (0.09 x 0.09)
+    Picture: format=image/png, size=(25, 25)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (0.92, 0.56), Size: (1.44 x 0.10)
+    P1: TECHNICAL DESIGN
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 0.71), Size: (11.89 x 0.33)
+    P1: System Architecture
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.13), Size: (12.55 x 0.17)
+    P1: ARMEK is structured as a five-layer architecture, separating user interaction, backend processing, AI orchestration, specialized agent assessment and output generation into distinct, well-defined tiers.
+  [Shape 6] Name: "Image 1", Type: PICTURE (13), Pos: (0.72, 1.37), Size: (7.73 x 4.35)
+    Picture: format=image/jpeg, size=(2226, 1252)
+  [Shape 7] Name: "Shape 4", Type: AUTO_SHAPE (1), Pos: (0.65, 5.79), Size: (2.32 x 0.78)
+  [Shape 8] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (0.75, 5.86), Size: (2.11 x 0.20)
+    P1: Layer 1
+  [Shape 9] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (0.75, 6.12), Size: (2.11 x 0.39)
+    P1: User Interface
+    P2: React.js · Bootstrap 5 · Axios
+  [Shape 10] Name: "Shape 7", Type: AUTO_SHAPE (1), Pos: (3.08, 5.79), Size: (2.32 x 0.78)
+  [Shape 11] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (3.19, 5.86), Size: (2.11 x 0.20)
+    P1: Layer 2
+  [Shape 12] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (3.19, 6.12), Size: (2.11 x 0.39)
+    P1: Backend
+    P2: FastAPI · Uvicorn · Pydantic
+  [Shape 13] Name: "Shape 10", Type: AUTO_SHAPE (1), Pos: (5.52, 5.79), Size: (2.32 x 0.78)
+  [Shape 14] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (5.63, 5.86), Size: (2.11 x 0.20)
+    P1: Layer 3
+  [Shape 15] Name: "Text 12", Type: AUTO_SHAPE (1), Pos: (5.63, 6.12), Size: (2.11 x 0.39)
+    P1: AI Orchestration
+    P2: OpenAI GPT-4o-mini · Master Agent
+  [Shape 16] Name: "Shape 13", Type: AUTO_SHAPE (1), Pos: (7.96, 5.79), Size: (2.32 x 0.78)
+  [Shape 17] Name: "Text 14", Type: AUTO_SHAPE (1), Pos: (8.06, 5.86), Size: (2.11 x 0.20)
+    P1: Layer 4
+  [Shape 18] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (8.06, 6.12), Size: (2.11 x 0.39)
+    P1: Agent Processing
+    P2: 5 Specialized Worker Agents
+  [Shape 19] Name: "Shape 16", Type: AUTO_SHAPE (1), Pos: (10.39, 5.79), Size: (2.32 x 0.78)
+  [Shape 20] Name: "Text 17", Type: AUTO_SHAPE (1), Pos: (10.50, 5.86), Size: (2.11 x 0.20)
+    P1: Layer 5
+  [Shape 21] Name: "Text 18", Type: AUTO_SHAPE (1), Pos: (10.50, 6.12), Size: (2.11 x 0.39)
+    P1: Output
+    P2: Assessment · Documents · Status
+  [Shape 22] Name: "Shape 19", Type: AUTO_SHAPE (1), Pos: (0.72, 6.64), Size: (11.89 x 0.34)
+  [Shape 23] Name: "Image 2", Type: PICTURE (13), Pos: (0.83, 6.74), Size: (0.17 x 0.13)
+    Picture: format=image/png, size=(48, 40)
+  [Shape 24] Name: "Text 20", Type: AUTO_SHAPE (1), Pos: (1.10, 6.73), Size: (12.07 x 0.17)
+    P1: The Credit Bureau Agent performs simulated verification checks within the ARMEK pipeline. It does not connect to live government or banking data sources.
+
+==================== SLIDE 9 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.83), Size: (1.77 x 0.23)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.82, 0.88), Size: (0.12 x 0.12)
+    Picture: format=image/png, size=(36, 36)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (1.00, 0.88), Size: (2.07 x 0.14)
+    P1: COMPARATIVE ANALYSIS
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 1.13), Size: (11.89 x 0.48)
+    P1: Existing vs. Proposed System: Comparison
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.79), Size: (11.89 x 0.57)
+    P1: The table below summarizes the structural differences between conventional manual loan processing and the ARMEK multi-agent approach across key operational dimensions.
+  [Shape 6] Name: "Table 0", Type: TABLE (19), Pos: (0.72, 2.51), Size: (11.89 x 1.00)
+    Table: 9 rows x 3 cols
+      Row 1: ['Dimension', 'Existing System', 'ARMEK (Proposed)']
+      Row 2: ['Processing Model', 'Sequential, largely manual stages', 'Parallel, agent-coordinated pipeline']
+      Row 3: ['Coordination', 'Inter-departmental handoffs required', 'Master Agent orchestrates all handoffs']
+      Row 4: ['Applicant Interaction', 'Form submission and manual follow-up', 'Conversational AI-guided interface']
+      Row 5: ['Verification Checks', 'Manual credit and identity review', 'Simulated checks via Credit Bureau Agent']
+      Row 6: ['Fraud Detection', 'Reviewer-dependent assessment', 'Dedicated Fraud Detection Agent']
+      Row 7: ['Document Generation', 'Manual document preparation', 'Automated via Document Generation Agent']
+      Row 8: ['Status Visibility', 'Communicated at end of process', 'Displayed in real time through the interface']
+      Row 9: ['Technology Basis', 'Standard banking workflows', 'React · FastAPI · OpenAI GPT-4o-mini']
+
+==================== SLIDE 10 ====================
+  [Shape 1] Name: "Shape 0", Type: AUTO_SHAPE (1), Pos: (0.72, 0.81), Size: (1.55 x 0.23)
+  [Shape 2] Name: "Image 0", Type: PICTURE (13), Pos: (0.82, 0.87), Size: (0.12 x 0.12)
+    Picture: format=image/png, size=(36, 36)
+  [Shape 3] Name: "Text 1", Type: AUTO_SHAPE (1), Pos: (1.00, 0.87), Size: (1.85 x 0.14)
+    P1: ACADEMIC SOURCES
+  [Shape 4] Name: "Text 2", Type: AUTO_SHAPE (1), Pos: (0.72, 1.11), Size: (11.89 x 0.48)
+    P1: References
+  [Shape 5] Name: "Text 3", Type: AUTO_SHAPE (1), Pos: (0.72, 1.64), Size: (11.89 x 0.24)
+    P1: Research Papers
+  [Shape 6] Name: "Image 1", Type: PICTURE (13), Pos: (0.72, 2.07), Size: (3.87 x 2.80)
+    Picture: format=image/png, size=(1163, 842)
+  [Shape 7] Name: "Shape 4", Type: AUTO_SHAPE (1), Pos: (0.98, 2.24), Size: (0.25 x 0.23)
+  [Shape 8] Name: "Text 5", Type: AUTO_SHAPE (1), Pos: (1.07, 2.29), Size: (0.07 x 0.14)
+    P1: 1
+  [Shape 9] Name: "Text 6", Type: AUTO_SHAPE (1), Pos: (0.98, 2.62), Size: (3.44 x 1.78)
+    P1: Turiel, J. D., & Aste, T. (2020). Peer-to-peer loan acceptance and default prediction with artificial intelligence. Royal Society Open Science, 7(6), 191649.
+    P2: https://doi.org/10.1098/rsos.191649
+  [Shape 10] Name: "Image 2", Type: PICTURE (13), Pos: (4.73, 2.07), Size: (3.88 x 2.80)
+    Picture: format=image/png, size=(1165, 842)
+  [Shape 11] Name: "Shape 7", Type: AUTO_SHAPE (1), Pos: (4.99, 2.24), Size: (0.25 x 0.23)
+  [Shape 12] Name: "Text 8", Type: AUTO_SHAPE (1), Pos: (5.08, 2.29), Size: (0.07 x 0.14)
+    P1: 2
+  [Shape 13] Name: "Text 9", Type: AUTO_SHAPE (1), Pos: (4.99, 2.62), Size: (3.44 x 2.07)
+    P1: Xu, J., Lu, Z., & Xie, Y. (2021). Loan default prediction of Chinese P2P market: a machine learning methodology. Scientific Reports, 11, 18759.
+    P2: https://doi.org/10.1038/s41598-021-98361-6
+  [Shape 14] Name: "Image 3", Type: PICTURE (13), Pos: (8.73, 2.07), Size: (3.88 x 2.80)
+    Picture: format=image/png, size=(1165, 842)
+  [Shape 15] Name: "Shape 10", Type: AUTO_SHAPE (1), Pos: (8.99, 2.24), Size: (0.25 x 0.23)
+  [Shape 16] Name: "Text 11", Type: AUTO_SHAPE (1), Pos: (9.08, 2.29), Size: (0.07 x 0.14)
+    P1: 3
+  [Shape 17] Name: "Text 12", Type: AUTO_SHAPE (1), Pos: (8.99, 2.62), Size: (3.44 x 2.07)
+    P1: Alonso Robisco, A., & Carbó Martínez, J. M. (2022). Measuring the model risk-adjusted performance of machine learning algorithms in credit default prediction. Financial Innovation, 8, 70.
+    P2: https://doi.org/10.1186/s40854-022-00366-1
+  [Shape 18] Name: "Text 13", Type: AUTO_SHAPE (1), Pos: (0.72, 5.07), Size: (11.89 x 0.24)
+    P1: Technical Documentation
+  [Shape 19] Name: "Shape 14", Type: AUTO_SHAPE (1), Pos: (0.61, 5.50), Size: (2.91 x 1.19)
+  [Shape 20] Name: "Text 15", Type: AUTO_SHAPE (1), Pos: (0.77, 5.64), Size: (2.60 x 0.24)
+    P1: React
+  [Shape 21] Name: "Text 16", Type: AUTO_SHAPE (1), Pos: (0.77, 6.00), Size: (3.27 x 0.28)
+    P1: https://react.dev/
+  [Shape 22] Name: "Shape 17", Type: AUTO_SHAPE (1), Pos: (3.68, 5.50), Size: (2.91 x 1.19)
+  [Shape 23] Name: "Text 18", Type: AUTO_SHAPE (1), Pos: (3.84, 5.64), Size: (2.60 x 0.24)
+    P1: FastAPI
+  [Shape 24] Name: "Text 19", Type: AUTO_SHAPE (1), Pos: (3.84, 6.00), Size: (3.27 x 0.28)
+    P1: https://fastapi.tiangolo.com/
+  [Shape 25] Name: "Shape 20", Type: AUTO_SHAPE (1), Pos: (6.76, 5.50), Size: (2.91 x 1.19)
+  [Shape 26] Name: "Text 21", Type: AUTO_SHAPE (1), Pos: (6.91, 5.64), Size: (2.60 x 0.24)
+    P1: OpenAI API
+  [Shape 27] Name: "Text 22", Type: AUTO_SHAPE (1), Pos: (6.91, 6.00), Size: (2.60 x 0.57)
+    P1: https://platform.openai.com/docs/
+  [Shape 28] Name: "Shape 23", Type: AUTO_SHAPE (1), Pos: (9.83, 5.50), Size: (2.91 x 1.19)
+  [Shape 29] Name: "Text 24", Type: AUTO_SHAPE (1), Pos: (9.98, 5.64), Size: (2.60 x 0.24)
+    P1: Bootstrap
+  [Shape 30] Name: "Text 25", Type: AUTO_SHAPE (1), Pos: (9.98, 6.00), Size: (2.60 x 0.57)
+    P1: https://getbootstrap.com/docs/
